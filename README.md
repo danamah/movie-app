@@ -43,6 +43,7 @@ npm run build
 ````
 
 ## Project Structure (Simplified)
+```bash
 src/
 ├── Components/         # Reusable components (MovieCard, Loading...)
 ├── Context/            # Auth context
@@ -54,6 +55,7 @@ src/
 ├── Services/           # API services
 ├── lib/schema/         # Zod validation schemas
 └── App.jsx             # Main router configuration
+```
 
 ## Notes
 - Uses TMDB API (API key is hardcoded – not recommended for production)
