@@ -42,7 +42,7 @@ npm run dev
 npm run build
 ````
 
-##Project Structure (Simplified)
+## Project Structure (Simplified)
 src/
 ├── Components/         # Reusable components (MovieCard, Loading...)
 ├── Context/            # Auth context
@@ -55,9 +55,9 @@ src/
 ├── lib/schema/         # Zod validation schemas
 └── App.jsx             # Main router configuration
 
-##Notes
+## Notes
 - Uses TMDB API (API key is hardcoded – not recommended for production)
 - Authentication is connected to an external API
 - Designed with a beautiful dark theme and pink accents (#e94560)
 
-###Enjoy your movie night! 🍿
+### Enjoy your movie night! 🍿
