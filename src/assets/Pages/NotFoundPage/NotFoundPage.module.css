@@ -1,0 +1,72 @@
+.notFoundContainer {
+  background-color: #1a1a2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.errorCode {
+  font-size: 8rem;
+  font-weight: 800;
+  color: #e94560;
+  line-height: 1;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  animation: float 3s ease-in-out infinite;
+}
+
+.errorIcon {
+  font-size: 5rem;
+  color: #e94560;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #a0a0a0;
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.homeBtn {
+  background-color: #e94560;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.homeBtn:hover {
+  background-color: #d63d55;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(233, 69, 96, 0.3);
+  color: white;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
